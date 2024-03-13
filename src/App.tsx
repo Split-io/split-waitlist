@@ -7,7 +7,7 @@ function App() {
       <NavBar />
       <HeroSection />
       <div className="text-white bg-black lg:px-14 sm:px-8 px-4 lg:py-32 py-24 sm:py-20">
-        <div className="flex lg:flex-row flex-col items-center gap-6 lg:mt-0 mt-8">
+        <div className="flex lg:flex-row flex-col items-center gap-6 lg:mt-0 mt-12">
           <div className="xl:w-[55%] lg:w-[51%] w-full">
             <h2 className="lg:text-8xl sm:text-5xl text-3xl font-medium lg:text-start text-center">
               Quick analysis of all expenses

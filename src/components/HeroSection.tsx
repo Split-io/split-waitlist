@@ -2,7 +2,7 @@ const HeroSection = () => {
   return (
     <section className="relative hero-bg lg:h-screen inset-0 w-full bg-black text-white bg-[size:60px_60px]">
       <div className="lg:w-[48%] sm:w-4/5 w-5/5 sm:mx-auto mx-3 text-center lg:py-36 py-28">
-        <h1 className="lg:text-6xl sm:text-5xl text-3xl font-bold lg:mt-20 mt-4">
+        <h1 className="lg:text-6xl sm:text-5xl text-4xl font-bold lg:mt-20 mt-6">
           Manage your{" "}
           <span className="block text-gray-200">finances with split</span>{" "}
         </h1>
