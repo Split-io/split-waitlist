@@ -38,8 +38,8 @@ const HeroSection = () => {
             </div>
           </div>
         </div>
-        <div className="lg:w-[500px] sm:w-[450px] w-full aspect-[3/3] blur-3xl absolute top-[60%] lg:left-[50%] sm:left-[50%] left-[50%] -translate-y-[50%] -translate-x-[50%] overflow-hidden">
-          <div className="h-[300px] w-[300px] bg-gradient-to-r from-gray-50/25 to-slate-50/25 rounded-full blur-3xl animated-blob"></div>
+        <div className="lg:w-[500px] sm:w-[450px] w-full aspect-[3/3] blur-3xl absolute lg:top-[60%] top-[30%] lg:left-[50%] sm:left-[50%] left-[50%] -translate-y-[50%] -translate-x-[50%] overflow-hidden">
+          <div className="h-[400px] w-[400px] bg-gradient-to-r from-gray-50/25 to-slate-50/25 rounded-full blur-3xl animated-blob"></div>
         </div>
       </div>
     </section>
