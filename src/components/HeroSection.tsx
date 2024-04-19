@@ -1,25 +1,46 @@
+import IntroPic from "../assets/icons/intro-pic.svg";
+
 const HeroSection = () => {
   return (
-    <section className="relative hero-bg lg:h-screen inset-0 w-full bg-black text-white bg-[size:60px_60px]">
-      <div className="lg:w-[48%] sm:w-4/5 w-5/5 sm:mx-auto mx-3 text-center lg:py-36 py-28">
-        <h1 className="lg:text-6xl sm:text-5xl text-4xl font-bold lg:mt-20 mt-10">
-          Manage your{" "}
-          <span className="block text-gray-200">finances with split</span>{" "}
-        </h1>
-        <p className="my-6 lg:text-base sm:text-lg text-base">
-          Save financial goals, save money and manage your finances, All the
-          financial tools for your goals in one place create different sub
-          accounts for your individual needs all with split
-        </p>
-        <a
-          href="/"
-          className="font-semibold block lg:w-3/5 w-4/5 mx-auto text-center lg:mt-0 mt-4 lg:py-3 py-[0.65rem] bg-gray-100 text-black rounded-md text-base"
-        >
-          Join the waitlist
-        </a>
-      </div>
-      <div className="lg:w-[400px] sm:w-[350px] w-full aspect-[3/3] blur-3xl absolute top-[60%] lg:left-[50%] sm:left-[50%] left-[50%] -translate-y-[50%] -translate-x-[50%] overflow-hidden">
-        <div className="h-[300px] w-[300px] bg-gradient-to-r from-gray-50/25 to-slate-50/25 rounded-full blur-3xl animated-blob"></div>
+    <section className="relative hero-bg inset-0 w-full bg-black text-white bg-[size:60px_60px]">
+      <div className="container mx-auto">
+        <div className="lg:px-28 sm:px-8 px-6 lg:py-36 py-36 grid lg:grid-cols-6 grid-cols-4 items-center gap-8">
+          <div className="lg:col-span-3 sm:col-span-2 col-span-4">
+            <h1 className="lg:text-5xl text-4xl font-medium text-white">
+              Take Control of Your Finances. Join the Split Waitlist!
+            </h1>
+            <h2 className="lg:text-lg text-lg text-[#C3C3C3] font-normal mt-8 mb-12">
+              Sign up today and be among the first to experience a revolutionary
+              financial management tool designed to empower you.
+            </h2>
+            <div className="flex lg:flex-row flex-col lg:items-start lg:justify-start justify-center items-center gap-6 w-full">
+              <a
+                href="/"
+                className="text-white py-4 xl:px-8 lg:px-4 px-10 shadow-[4px_4px_0px_0px_#fff] rounded-full bg-black hover:shadow-[2px_2px_0px_0px_#94a3b8] transition-all duration-150"
+              >
+                Get early access
+              </a>
+              <a
+                href="/"
+                className="text-black py-4 xl:px-8 lg:px-4 px-12 shadow-[4px_4px_0px_0px_#585858] rounded-full bg-white hover:shadow-[2px_2px_0px_0px_#94a3b8] transition-all duration-150"
+              >
+                Learn more
+              </a>
+            </div>
+          </div>
+          <div className="lg:col-span-3 sm:col-span-2 col-span-4 lg:mt-0 mt-8">
+            <div className="lg:w-4/5 w-5/5 mx-auto lg:h-[30rem] h-[18rem] lg:-translate-y-4 -translate-y-0">
+              <img
+                src={IntroPic}
+                alt="Intro Picture"
+                className="w-full h-full object-fill rounded-xl"
+              />
+            </div>
+          </div>
+        </div>
+        <div className="lg:w-[500px] sm:w-[450px] w-full aspect-[3/3] blur-3xl absolute top-[60%] lg:left-[50%] sm:left-[50%] left-[50%] -translate-y-[50%] -translate-x-[50%] overflow-hidden">
+          <div className="h-[300px] w-[300px] bg-gradient-to-r from-gray-50/25 to-slate-50/25 rounded-full blur-3xl animated-blob"></div>
+        </div>
       </div>
     </section>
   );

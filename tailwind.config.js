@@ -2,8 +2,12 @@
 export default {
   content: ["./src/**/*.{html,js,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        Gentium: ["Gentium", "san-serif"],
+      },
+    },
   },
   plugins: [],
-}
+};
 
