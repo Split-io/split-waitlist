@@ -26,7 +26,7 @@ const NavBar = () => {
 
   return (
     <nav
-      className={`text-white backdrop-blur-md grid grid-cols-8 xl:gap-6 lg:h-20 h-14 lg:items-center fixed top-5 left-[50%] -translate-x-[50%] z-30 lg:px-4 sm:px-8 px-6 sm:w-4/5 lg:w-[88%] xl:w-[84%] 2xl:w-3/5 w-[93%] mx-auto bg-[#ffffff0f] rounded-full  ${
+      className={`text-white backdrop-blur-md grid grid-cols-8 xl:gap-6 lg:h-20 h-14 lg:items-center fixed lg:top-5 top-3 left-[50%] -translate-x-[50%] z-30 lg:px-4 sm:px-8 px-6 sm:w-4/5 lg:w-[88%] xl:w-[84%] 2xl:w-3/5 w-[93%] mx-auto bg-[#ffffff0f] rounded-full  ${
         isScrolled ? "bg-black/90" : ""
       }`}
     >

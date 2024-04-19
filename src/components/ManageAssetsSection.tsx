@@ -55,7 +55,7 @@ const ManageAssetsSection = () => {
 
   return (
     <section className="lg:px-12 sm:px-8 px-4 lg:py-20 py-20">
-      <div className="lg:w-[55%] sm:w-4/5 w-5/5 sm:mx-auto mx-3 text-center">
+      <div className="lg:w-[55%] sm:w-4/5 w-5/5 sm:mx-auto text-center">
         <h1 className="sm:text-5xl text-3xl font-bold">
           Effortlessly Manage Different Spending Needs
         </h1>
@@ -75,8 +75,8 @@ const ManageAssetsSection = () => {
                     index === activeIndex ? "transform scale-110" : ""
                   } ${index === activeIndex ? "z-10" : ""} ${
                     index === activeIndex
-                      ? "h-[17rem] w-[12rem] transition-all duration-150 ease-in-out"
-                      : "h-[16rem] w-[12rem]"
+                      ? "h-[18rem] w-[13rem] transition-all duration-150 ease-in-out"
+                      : "h-[17rem] w-[13rem]"
                   }`}
                 >
                   <p className="absolute top-[40%] left-[50%] -translate-x-[50%] text-white font-semibold">
@@ -85,7 +85,7 @@ const ManageAssetsSection = () => {
                   <div className="absolute top-[55%] left-[50%] -translate-x-[50%] text-black py-[0.3rem] px-6 rounded-full bg-white text-sm">
                     {item.title}
                   </div>
-                  <div className="absolute bottom-[5%] left-[50%] -translate-x-[50%] flex flex-row items-start justify-between text-black w-[90%] rounded-lg p-1 bg-white text-sm">
+                  <div className="absolute bottom-[5%] left-[50%] -translate-x-[50%] flex flex-row items-start justify-between text-black w-[90%] rounded-lg py-1 px-2 bg-white text-sm">
                     <div>
                       <svg
                         width="41"

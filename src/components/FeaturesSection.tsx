@@ -69,7 +69,7 @@ const FeaturesSection = () => {
                       <img
                         src={data.image}
                         alt={data.alt}
-                        className="hidden absolute xl:-bottom-5 lg:bottom-7 bottom-9 right-0 z-[5]"
+                        className="hidden absolute xl:-bottom-5 lg:bottom-7 bottom-9 right-0 z-[5] w-[70%]"
                       />
                     )}
                   </div>
