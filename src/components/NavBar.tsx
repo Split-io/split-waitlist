@@ -26,8 +26,8 @@ const NavBar = () => {
 
   return (
     <nav
-      className={`text-white backdrop-blur-md grid grid-cols-8 xl:gap-6 lg:h-20 h-14 lg:items-center fixed lg:top-5 top-5 left-[50%] -translate-x-[50%] z-30 lg:px-4 sm:px-8 px-6 sm:w-4/5 lg:w-[88%] xl:w-[84%] 2xl:w-3/5 w-[93%] mx-auto bg-[#ffffff0f] rounded-full  ${
-        isScrolled ? "bg-black/90" : ""
+      className={`text-white backdrop-blur-md bg-[#4A2FD3] grid grid-cols-8 xl:gap-6 lg:h-20 h-14 lg:items-center fixed lg:top-5 top-5 left-[50%] -translate-x-[50%] z-30 lg:px-4 sm:px-8 px-6 sm:w-4/5 lg:w-[88%] xl:w-[84%] 2xl:w-3/5 w-[93%] mx-auto rounded-full  ${
+        isScrolled ? "bg-[#4A2FD3]" : ""
       }`}
     >
       <div className="lg:col-span-1 xl:col-span-2 col-span-2">
@@ -40,16 +40,16 @@ const NavBar = () => {
             <img src={Logo} alt="Logo" className="w-full h-full" />
           </div>
 
-          <span className="xl:text-4xl lg:text-[1.7em] text-xl font-bold">
-            Split
+          <span className="xl:text-3xl lg:text-[1.7em] text-xl font-bold">
+            Booklet
           </span>
         </a>
       </div>
       <div
         ref={navItem}
-        className="lg:bg-transparent bg-black xl:col-span-6 lg:col-span-7 col-span-8 lg:grid grid-cols-6 hidden lg:relative lg:top-0 lg:left-0 fixed top-0 left-0 lg:h-16 h-[95vh] w-full z-20 lg:px-0 px-6 font-semibold overflow-y-scroll [&::-webkit-scrollbar]:hidden [-ms-overflow-style:'none'] [scrollbar-width:'none']"
+        className="lg:bg-transparent bg-[#4A2FD3] xl:col-span-6 lg:col-span-7 col-span-8 lg:grid grid-cols-6 hidden lg:relative lg:top-0 lg:left-0 fixed top-0 left-0 lg:h-16 h-[95vh] w-full z-20 lg:px-0 px-6 font-normal overflow-y-scroll [&::-webkit-scrollbar]:hidden [-ms-overflow-style:'none'] [scrollbar-width:'none']"
       >
-        <ul className="col-span-4 flex lg:flex-row flex-col lg:items-center items-start justify-center text-base lg:space-y-0 space-y-5 lg:mt-0 mt-10 text-[#8C8989]">
+        <ul className="col-span-4 flex lg:flex-row flex-col lg:items-center items-start justify-center text-base lg:space-y-0 space-y-5 lg:mt-0 mt-10 text-[#DDDDDD]">
           <li>
             <a href="" className="py-2 lg:px-4 px-2 lg:mx-3">
               About
@@ -74,9 +74,9 @@ const NavBar = () => {
         <div className="col-span-2 flex flex-row lg:items-start items-center lg:justify-end justify-center lg:mb-0 mb-8 mr-4">
           <a
             href="/"
-            className="text-white py-4 xl:px-8 lg:px-4 px-8 shadow-[4px_4px_0px_0px_#fff] rounded-full bg-black hover:shadow-[2px_2px_0px_0px_#94a3b8] transition-all duration-150"
+            className="text-white py-4 xl:px-8 lg:px-4 px-8 shadow-[4px_4px_0px_0px_#fff] rounded-full bg-[#4A2FD3] hover:shadow-[2px_2px_0px_0px_#94a3b8] transition-all duration-150 border-[1px] border-white"
           >
-            Get early access
+            Join waitlist
           </a>
         </div>
       </div>

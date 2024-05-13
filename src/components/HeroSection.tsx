@@ -2,7 +2,7 @@ import IntroPic from "../assets/icons/intro-pic.svg";
 
 const HeroSection = () => {
   return (
-    <section className="relative hero-bg inset-0 w-full bg-black text-white bg-[size:60px_60px]">
+    <section className="relative hero-bg inset-0 w-full bg-[#4A2FD3]/95 text-white bg-[size:60px_60px]">
       <div className="container mx-auto">
         <div className="lg:px-28 sm:px-8 px-6 lg:py-36 py-36 grid lg:grid-cols-6 grid-cols-4 items-center gap-8">
           <div className="lg:col-span-3 sm:col-span-2 col-span-4">
@@ -16,13 +16,13 @@ const HeroSection = () => {
             <div className="flex lg:flex-row flex-col lg:items-start lg:justify-start justify-center items-center gap-6 w-full">
               <a
                 href="/"
-                className="text-white py-4 xl:px-8 lg:px-4 px-10 shadow-[4px_4px_0px_0px_#fff] rounded-full bg-black hover:shadow-[2px_2px_0px_0px_#94a3b8] transition-all duration-150"
+                className="text-white py-4 xl:px-8 lg:px-4 px-10 shadow-[4px_4px_0px_0px_#fff] rounded-full bg-[#4A2FD3] hover:shadow-[2px_2px_0px_0px_#94a3b8] transition-all duration-150 border-[1px] border-white"
               >
-                Get early access
+                Join waitlist
               </a>
               <a
                 href="/"
-                className="text-black py-4 xl:px-8 lg:px-4 px-12 shadow-[4px_4px_0px_0px_#585858] rounded-full bg-white hover:shadow-[2px_2px_0px_0px_#94a3b8] transition-all duration-150"
+                className="text-black py-4 xl:px-8 lg:px-4 px-12 shadow-[4px_4px_0px_0px_#585858] rounded-full bg-white hover:shadow-[2px_2px_0px_0px_#94a3b8] transition-all duration-150 border-[1px] border-white"
               >
                 Learn more
               </a>
